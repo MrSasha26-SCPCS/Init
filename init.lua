@@ -24,7 +24,7 @@ function Init:GlobalInit()
     PluginAPI.RegisterPlayerClass("PVPClass", false)
     PluginAPI.RegisterPlayerClass("ChaosInsurgency", false)
 
-    PluginAPI.RegisterItem("CS.Akequ.Items.SCP420J", false, CS.ResourcesManager.GetSprite("inv_item_scp420j"))
+    PluginAPI.RegisterItem("SCP420J", false, CS.ResourcesManager.GetSprite("inv_item_scp420j"))
 end
 
 function Init:InitClient()
